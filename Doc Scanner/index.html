@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Doc Scanner</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+ 
+    </style>
+</head>
+<body>
+    <h1>Welcome to DocScanner!</h1>
+    <form method="post" >
+    <label for="pic">Select a file</label>
+    <input type="file" name="picture" id="pic" accept="image/*" onclick=ifr()>
+    <input type="submit" value="Upload">
+    </form><br><br>
+
+    <script>
+        function ifr(){
+        let file = document.getElementById("pic").files;
+        file=file[0]['name'];
+         iframe = document.createElement("iframe");
+    //     div= document.createElement("div");
+    //     div.className="wrap";
+        iframe.className = "frame";
+        iframe.src = file;  //"docscan2.jpg";
+        iframe.style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;width:400px;height:400px";
+         document.body.appendChild(iframe);
+        }
+    </script>
+
+    <!-- <iframe src="{file}" width="100%" height="300" style="border:1px solid black;">
+    </iframe> -->
+    <!-- <div class="wrap">
+        <iframe class="frame" src="docscan2.jpg"></iframe>
+    </div> -->
+
+</body>
+</html>
