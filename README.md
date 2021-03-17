@@ -5,3 +5,4 @@ A collection of mini OpenCV projects purely for learning purposes and enhancing 
 * Document Scanner
 * OMR bubble scanner
 * BarCode scanner
+* Air-Drum system
