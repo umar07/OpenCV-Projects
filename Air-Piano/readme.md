@@ -9,8 +9,17 @@ Air Piano is a computer vision based project that allows you to play a virtual p
 There is also a filter applied to get just the fingertips using the distance between the points, while you may also chose to use the angle between the fingers to achieve the same.
 
 * The last part includes the PyAutoGUI library which allows you to do the keyboard operations depending on the co-ordintates of you hand movements(fingertips to be precise).
+[Link to virtual piano keyboard](https://www.onlinepianist.com/virtual-piano)
 
 ![Demonstration](https://github.com/umar07/OpenCV-Projects/blob/main/Air-Piano/airpiano.png?raw=true "Demonstration picture")
+
+## To run the project-
+* Fork the project and clone it in your repo.
+* Run the requirements.txt file as 
+`pip install -r requirements.txt`
+* Run the program and the streaming window will open.
+* Then go to [Virtual Piano keyboard](https://www.onlinepianist.com/virtual-piano) and select that window. Now make finger-movements inside the white lines of your streaming window to play the piano!
+
 
 
 The following are the sources I used to learn and that helped me build this project successfully-
