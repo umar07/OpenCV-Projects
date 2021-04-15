@@ -7,3 +7,4 @@ A collection of mini OpenCV projects purely for learning purposes and enhancing 
 * BarCode scanner
 * Air-Drum system
 * Air-Piano
+* Background Color Detection
